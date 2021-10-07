@@ -1,4 +1,4 @@
-module github.com/digitalocean/sample-golang
+module github.com/wesionairegmbh/sample-golang
 
 go 1.17
 

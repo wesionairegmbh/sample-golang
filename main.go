@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/digitalocean/sample-golang/helloworld"
+	"github.com/wesionairegmbh/sample-golang/helloworld"
 	"net/http"
 	"os"
 	"strconv"
