@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/digitalocean/sample-golang/helloworld"
 	"net/http"
 	"os"
 	"strconv"
@@ -34,6 +35,7 @@ func logRequest(r *http.Request) {
 }
 
 func main() {
+	helloworld.PrintHW()
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		logRequest(r)
 		fmt.Fprintf(w, "Hello! you've requested %s\n", r.URL.Path)
